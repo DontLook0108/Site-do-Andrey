@@ -1,19 +1,44 @@
 <html>
-    <head>
-        <title> Controle de Gastos </title>
+    <head> 
+        <meta charset="utf-8">
+        <title> Controle de Gastos </title> 
+        <style type="text/css"> 
+        *{ 
+            padding: 1;
+            margin: 3;
+            
+        } 
+
+        #Titulo{ 
+            background-color: gray; 
+            border-radius: 50ch;
+            padding: 3;
+            text-align: center; 
+
+        } 
+
+        #Registro{
+            text-align: center
+        } 
+
+        #Tabela{
+            border: 50px
+        } 
+
+        </style>
     </head> 
     <body>
-    <center>
-        <font face="arial"> 
-        <div style="background-color: gray" align="center">
+        <div id="Titulo">
         <br />
-        <font color="white"><h1>Controle Pessoal Financeiro</h1></font>
+        <h1>Controle Pessoal Financeiro</h1>
         <br />
-        </div>
-    </center>
+        </div> 
+        <div id="Registro">
         <h1>Registros</h1> 
+        </div>
         <hr /> 
-        <table cellpadding="5" cellspacing="5" border="3"> 
+        <div id="Tabela">
+        <table cellpadding="5" cellspacing="5"> 
             <thead>
                 <tr>
                     <th scope="col">Descrição</th>
@@ -55,14 +80,11 @@
                     <th>Débito</th>
                     <th>10/10/2017</th>
                     <th>-2900.00</th>                        
-                    <th color="red">-760.40</th>
+                    <th>-760.40</th>
                 </tr>
             </thead>
         </table> 
-        <h1>Adicionar nova receita</h1>
-         
-    </font>
-     
+        </div> 
+        <h1>Adicionar nova receita</h1>    
     </body> 
-
 </html>
